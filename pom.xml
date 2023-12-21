@@ -19,7 +19,7 @@
 
   <properties>
     <!-- build/language -->
-    <kotlin.version>1.9.10</kotlin.version>
+    <kotlin.version>1.9.20</kotlin.version>
     <build-helper-maven.version>3.2.0</build-helper-maven.version>
     <token-support.version>3.1.7</token-support.version>
     <!-- dependencies -->
@@ -28,8 +28,8 @@
     <bidrag-transport.version>20230508100903_0aa6729</bidrag-transport.version>
     <bidrag-tilgangskontroll.version>1.10.4</bidrag-tilgangskontroll.version>
     <mockito-kotlin.version>5.1.0</mockito-kotlin.version>
-    <springdoc-openapi-ui.version>2.1.0</springdoc-openapi-ui.version>
-    <nimbus-jose-jwt.version>9.31</nimbus-jose-jwt.version>
+    <springdoc-openapi-ui.version>2.3.0</springdoc-openapi-ui.version>
+    <nimbus-jose-jwt.version>9.37.3</nimbus-jose-jwt.version>
     <springframework-cloud.version>4.1.0</springframework-cloud.version>
     <com.squareup.okhttp3.version>4.12.0</com.squareup.okhttp3.version>
     <aordningen-inntektsinformasjon-v1.version>1.7</aordningen-inntektsinformasjon-v1.version>
@@ -82,7 +82,7 @@
     <dependency>
       <groupId>com.fasterxml.jackson.datatype</groupId>
       <artifactId>jackson-datatype-jsr310</artifactId>
-      <version>2.15.0</version>
+      <version>2.16.0</version>
     </dependency>
 
     <!-- nav -->
