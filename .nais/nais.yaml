@@ -46,10 +46,10 @@ spec:
   resources:
     limits:
       cpu: 1000m
-      memory: 2048Mi
+      memory: 1012Mi
     requests:
-      cpu: 500m
-      memory: 1024Mi
+      cpu: 250m
+      memory: 512Mi
     replicas:
       cpuThresholdPercentage: 80
       max: 4
